@@ -15,4 +15,4 @@ jobs:
         extra_nix_config: |
           experimental-features = nix-command flakes
     - run: nix develop -c rustc --version
-    - run: $(nix-build --no-out-link)/bin/rust-nix-template
+    - run: $(nix-build --no-out-link)/bin/too-many-lists
